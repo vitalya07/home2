@@ -1,0 +1,11 @@
+.photogalerey {
+    background-image: url('../img/bg_rest_1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    &__item {
+        height: 280px;
+        overflow: hidden;
+    }
+}

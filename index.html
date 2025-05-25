@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Рабочий дом, помощь людям попавшим в сложную жизненую ситуцацию">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Рабочий дом, помощь людям">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Рабочий дом</title>
+</head>
+<body>
+    <div class="body__container">
+        <article class="links">
+            <a href="#" class="links__item">
+                <img src="icons/telegram.svg" alt="Телеграм">
+            </a>
+            <a href="#" class="links__item">
+                <img src="icons/whatsapp.svg" alt="Ватсап">
+            </a>
+        </article>
+        <div class="modal hiden">
+            <div class="modal__dialog">
+                <div class="modal__content">
+                    <div class="modal__close"></div>
+                    <h2 class="modal__title">Заявка на консультацию</h2>
+                    <h3 class="modal__subtitle">Мы перезвоним Вам в течении пяти минут и ответим на все Ваши вопросы</h3>
+                    <form class="modal__form">
+                        <label class="modal__form-label form__label">
+                            <input type="text" id="modal-name" class="modal__form-input form__input" placeholder="Ваше имя">
+                        </label>
+                        <label class="modal__form-label form__label">
+                            <input type="tel" id="modal-tel" class="modal__form-input form__input" placeholder="Ваш телефон">
+                        </label>
+                        <button class="modal__form-btn form__btn btn">Оставить заявку</button>
+                        <div class="form__checkbox">
+                            <input type="checkbox" class="form__checkbox-check" required>
+                            <span class="form__checkbox-link">
+                                Нажимая на кнопку "Оставить заявку на сотрудничество", вы даёте согласие на обработку персональных данных в соответствии c <a href="policy.html" target="_blank">Политикой конфиденциальности.</a> 
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="index.html" class="header__logo"><img src="icons/logo.svg" alt="Логотип сайта"></a>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__list-item"><a href="#" class="header__list-link">Статьи</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">О нас</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Отзывы</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Контакты</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Поддержать рабочий дом</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__contacts">
+                        <a href="tel:79373903333" class="header__contacts-phone">8-937-390-33-33</a>
+                        <div class="header__contacts-warning">работают мессенджеры</div>
+                    </div>
+                   <button data-modal class="header__btn btn">Оставить заявку</button>
+                   <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <main class="content">
+            <section class="main">
+                <div class="container">
+                    <h1 class="main__title"><span>помощь с жильём и работой 24/7</span> в рабочем ДОМЕ</h1>
+                    <div class="main__wrapper">
+                        <div class="main__left">                            
+                            <div class="main__advantages">
+                                <div class="main__advantages-item">
+                                    <div class="main__advantages-icon">
+                                        <img src="icons/check.svg" alt="Преимущество 1">
+                                    </div>
+                                    <div class="main__advantages-name">ЕЖЕДНЕВНЫЕ ВЫПЛАТЫ!</div>
+                                </div>
+                                 <div class="main__advantages-item">
+                                    <div class="main__advantages-icon">
+                                        <img src="icons/check.svg" alt="Преимущество 2">
+                                    </div>
+                                    <div class="main__advantages-name">РАБОТА КАЖДОМУ ПО СИЛАМ</div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="main__right">
+                            <h2 class="main__right-title">Свяжитесь с нами</h2>
+                            <div class="main__right-wrapper">
+                                <a href="#" target="_blank" class="main__right-social">
+                                    <div class="main__right-icon">
+                                        <img src="icons/telegram.svg" alt="telegram">
+                                    </div>
+                                    <p class="main__right-text">Telegram</p>
+                                </a>
+                                <a href="#" target="_blank" class="main__right-social">
+                                    <div class="main__right-icon">
+                                        <img src="icons/whatsapp.svg" alt="whatsap">
+                                    </div>
+                                    <p class="main__right-text">whatsap</p>
+                                </a>
+                            </div>                           
+                        </div>                      
+                    </div>                   
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <h2 class="about__title title">О нас</h2>
+                    <div class="about__digits">
+                        <div class="about__digits-item">
+                            <h3 class="about__digits-title">5</h3>
+                            <p class="about__digits-subtitle">Лет мы оказываем помощь людям</p>
+                        </div>
+                        <div class="about__digits-item">
+                            <h3 class="about__digits-title">1000</h3>
+                            <p class="about__digits-subtitle">Человек прошли через наш дом</p>
+                        </div>
+                        <div class="about__digits-item">
+                            <h3 class="about__digits-title">30</h3>
+                            <p class="about__digits-subtitle">Человек обращаются к нам ежемесячно</p>
+                        </div>
+                        <div class="about__digits-item">
+                            <h3 class="about__digits-title">75</h3>
+                            <p class="about__digits-subtitle">Возвращаются к нормальной жизни</p>
+                        </div>
+                        
+                    </div>
+                    <div class="about__wrapper">
+                        <div class="about__left">
+                            <p class="about__descr">Мы  оказываем  помощь  людям попавшим в сложную жизненную ситуацию . Основным направлением деятельности является восстановление личности после выхода из запойного состояния и  обеспечение социально значимыми вещами людей которые к нам обращаются. Так же к нам приходят те кто недавно вышли из мест лишения со свободы или остался без постоянного места жительства.</p> 
+                            <div class="about__box">
+                                <div class="about__info">
+                                    <h4 class="about__info-title">Помощь людям с Алкогольной зависимостью</h4>
+                                    <p class="about__info-descr">Если вы человек, который остался без жилья и работы по причине употребления алкоголя , то мы тоже будем рады вам помочь и предоставим все необходимое для первоначального приведения себя в порядок и выхода из запойного состояния . Программа восстановления личности, основывается на привитие трудовых навыков, социотерапии и психокоррекционной работе с теми кто обращается к нам за помощью. Мы принимаем людей  по упрощенной системе в которой не нужно собирать кучу справок и проходить мед комиссию.</p>
+                                </div>  
+                                <div class="about__info">
+                                    <h4 class="about__info-title">На что существует Рабочий  Дом</h4>
+                                    <p class="about__info-descr">Наша деятельность построена на самообеспечении и самоокупаемости.После того как человек пришел в себя и восстановился от физической зависимости он подключается к работе нашего дома  и начинает ездить на различные работы. Деньги которые платят заказчики за работу ребят распределяются между самими людьми которые были на работе и рабочим домом для покрытия расходов связанных с проживанием питанием и социально значимыми нуждами.</p>
+                                </div>    
+                                 <div class="about__info">
+                                    <h4 class="about__info-title">Что такое Рабочий Дом</h4>
+                                    <p class="about__info-descr">Рабочий дом представляет собой учреждение расположенное в большем доме в котором условия пребывания максимально приближены к домашним Человек обратившийся к нам за помощью не чувствует себя  ущемленным в своих правах. Человек вращается в среде таких же людей как и он которые прошли этап восстановления и ведут трезвый образ жизни . мотивирую своим личным примером новых людей которые обращаются к нам за помощью. Мы не являемся Мед учреждением и не относимся ни к одной религиозной конфессии . В рабочем доме ни кто ни кого не держит человек не желающий получать помощь и вставать на трезвый путь может беспрепятственно покинуть наше учреждение. Во всех остальных случаях человек не предоставлен сам себе всегда есть люди которые в трудную минуту поддержат и   помогут не совершить не правильный шаг.</p>
+                                </div>                  
+                            </div>   
+                           <div class="about__next">
+                                <div class="about__next-warning">Подробнее</div>
+                                <div class="about__next-icon">
+                                    <img src="icons/down_arrow.svg" alt="next-bottom">
+                                </div>
+                            </div>                             
+                        </div>
+                       <div class="about__right">
+                            <img src="img/original.jpeg" alt="Картинка о нас">
+                       </div>
+                    </div>
+                </div>
+            </section>
+            <section class="suggestion">
+                <div class="container">
+                    <h2 class="suggestion__title title">ЧТО МЫ МОЖЕМ ПРЕДЛОЖИТЬ</h2>
+                    <div class="suggestion__grid">
+                        <div class="suggestion__item">
+                            <h3 class="suggestion__item-title">1 <span>Шаг</span> </h3>
+                            <h4 class="suggestion__item-subtitle">Консультация</h4>
+                            <p class="suggestion__item-descr">Наши опытные консультанты расскажут всю необходимую информацию или сумеют убедить принять решение для прихода к нам.</p>
+                        </div>
+                        <div class="suggestion__item">
+                            <h3 class="suggestion__item-title">2 <span>Шаг</span></h3>
+                            <h4 class="suggestion__item-subtitle">Социальный патруль</h4>
+                            <p class="suggestion__item-descr">Мы можем приехать сами и привести вас в рабочий дом если у вас нет возможности приехать оказываем первую помощь всем кто не может самостоятельно придди к нам из за финансового положения.</p>
+                        </div>
+                        <div class="suggestion__item">
+                            <h3 class="suggestion__item-title">3 <span>Шаг</span></h3>
+                            <h4 class="suggestion__item-subtitle">Получение вещей первой необходимости</h4>
+                            <p class="suggestion__item-descr">Обратившись к нам за помощью вы сможете привести себя в нормальный вид и получить все необходимое на первое время.</p>
+                        </div>
+                        <div class="suggestion__item">
+                            <h3 class="suggestion__item-title">4 <span>Шаг</span></h3>
+                            <h4 class="suggestion__item-subtitle">Восстановление документов</h4>
+                            <p class="suggestion__item-descr">Все наши подопечные погут рассчитывать на помощь в восстановлении утраченных документов.</p>
+                        </div>
+                        <div class="suggestion__item">
+                            <h3 class="suggestion__item-title">5 <span>Шаг</span></h3>
+                            <h4 class="suggestion__item-subtitle">Приобщение к труду</h4>
+                            <p class="suggestion__item-descr">Многие подопечные нашего дома получают новые знания и имеют возможность обучиться какой либо профессии. С последующим трудоустройством.</p>
+                        </div>
+                        <div class="suggestion__item">
+                            <h3 class="suggestion__item-title">6 <span>Шаг</span></h3>
+                            <h4 class="suggestion__item-subtitle">Карьерный рост</h4>
+                            <p class="suggestion__item-descr">Все ребята по истечению срока восстановления могут продолжить пребывание у нас на правах волонтеров или сотрудников </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="help">
+                <div class="container">
+                    <h2 class="help__title title">Какую помощь мы оказываем</h2>
+                    <div class="swiper help-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="help__item">
+                                <div class="help__item-left">
+                                    <div class="help__item-img">
+                                        <img src="img/slid1.jpg" alt="food">
+                                    </div>
+                                </div>
+                                <div class="help__item-right">
+                                    <div class="help__item-icon">
+                                        <img src="icons/roasted_chicken.svg" alt="Бесплатное питание">
+                                    </div>
+                                    <h3 class="help__item-title">Бесплатное питание</h3>
+                                    <p class="help__item-descr">Все кто обращаются в наш рабочий дом могут рассчитывать на бесплатное 3 разовое питание </p>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="help__item">
+                                <div class="help__item-left">
+                                    <div class="help__item-img">
+                                        <img src="img/slid5.jpg" alt="Бесплатная одежда">
+                                    </div>
+                                </div>
+                                <div class="help__item-right">
+                                    <div class="help__item-icon">
+                                        <img src="icons/tshirt.svg" alt="Помощь  с вещами ">
+                                    </div>
+                                    <h3 class="help__item-title">Помощь  с вещами </h3>
+                                    <p class="help__item-descr">Наш дом предоставляет подопечным необходимую одежду и средств личной гигиены </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="help__item">
+                                <div class="help__item-left">
+                                    <div class="help__item-img">
+                                        <img src="img/slid2.jpg" alt="Помощь с одеждой">
+                                    </div>
+                                </div>
+                                <div class="help__item-right">
+                                    <div class="help__item-icon">
+                                        <img src="icons/bed.svg" alt="Помощь с одеждой">
+                                    </div>
+                                    <h3 class="help__item-title">Бесплатное проживание</h3>
+                                    <p class="help__item-descr">Для каждого подопечного  предусмотрено отдельное спальное место со всеми необходимыми средствами личной гигиены. </p>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="help__item">
+                                <div class="help__item-left">
+                                    <div class="help__item-img">
+                                        <img src="img/snimok.png" alt="food">
+                                    </div>
+                                </div>
+                                <div class="help__item-right">
+                                    <div class="help__item-icon">
+                                        <img src="icons/briefcase.svg" alt="Помощь в трудосустройстве">
+                                    </div>
+                                    <h3 class="help__item-title">Ежедневный доход</h3>
+                                    <p class="help__item-descr">Программа трудоустройства с ежедневным доходом . Возможность работать по профессии</p>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="feedback">
+                <div class="container">
+                    <div class="feedback__dialog">
+                        <h2 class="feedback__dialog-title">Заявка на консультацию</h2>
+                        <h3 class="feedback__dialog-subtitle">Мы перезвоним Вам в течении пяти минут и ответим на все Ваши вопросы</h3>                        
+                    </div>
+                    <form class="form">
+                        <label class="form__label">
+                            <input type="text" name="name" class="form__input" id="name" placeholder="Ваше имя">
+                        </label>
+                        <label class="form__label">
+                            <input type="telt" name="tel" class="form__input" id="tel" placeholder="Ваше телефон">
+                        </label>
+                        <button type="submit" class="form__btn btn">Записаться на консультацию</button>
+                        <div class="form__checkbox">
+                            <input type="checkbox" class="form__checkbox-check" required>
+                            <span class="form__checkbox-link">
+                                Нажимая на кнопку "Оставить заявку на сотрудничество", вы даёте согласие на обработку персональных данных в соответствии c <a href="policy.html" target="_blank">Политикой конфиденциальности.</a> 
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="responses">
+                <div class="container">
+                    <h2 class="responses__title title">Отзывы</h2>
+                    <div class="swiper responses-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="responses__item">
+                                <div class="responses__item-photo">
+                                    <img src="img/user-1.png" alt="Участник Андрей">
+                                </div>
+                                <div class="responses__item-name">Дмитрий</div>
+                                <p class="responses__item-recal">Добрый день! Хочу поделиться с вами своим отзывом. Меня зовут Дмитрий, и я долгое время жил на улице и не знал как помочь себе. Когда я обратился в рабочий дом. 
+                                Ребята работающие там сделали все, что чтоб мне помочь. Я снова смог почувствовать вкус жизни .Сейчас я полон энергией, и горжусь, что могу жить трезвой и свободной жизнью!</p>
+                            </div>                            
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="responses__item">
+                                <div class="responses__item-photo">
+                                    <img src="img/user-2.png" alt="Участник Зуля">
+                                </div>
+                                <div class="responses__item-name">Зуля</div>
+                                <p class="responses__item-recal">В рабочем доме мой муж получил комплексную помощь.   Мы с дочкой каждую неделю навещали его, условия очень достойные, атмосфера доброжелательная. Хочется выразить отдельную благодарность  за предоставленную  работу. Мы снова стали счастливой семьей. Спасибо за то, что Вы делаете!</p>
+                            </div>                            
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="responses__item">
+                                <div class="responses__item-photo">
+                                    <img src="img/user-3.png" alt="Участник Андрей">
+                                </div>
+                                <div class="responses__item-name">Андрей</div>
+                                <p class="responses__item-recal">Три года назад моя девушка сказала , что беременна, поставив перед выбором - либо алкоголь , либо она. Тогда я решил покончить с зависимостью навсегда. В рабочем доме я провел почти 2 месяца. За это время я стал новым человеком. Обстановка уютная и домашняя. В свободное время мы выбирались в боулинг, бильярд, играли в спортивные игры. Спасибо!!!!</p>
+                            </div>                           
+                        </div>
+                         <div class="swiper-slide">
+                           <div class="responses__item">
+                                <div class="responses__item-photo">
+                                    <img src="img/user-4.png" alt="Участник Лев">
+                                </div>
+                                <div class="responses__item-name">Лев</div>
+                                <p class="responses__item-recal">Я долго пытался справиться со своей зависимостью от алкоголя самостоятельно, но у меня ничего не получалась. Каждая попытка сопровождалась срывом и депрессией. Тогда я решил обратиться в рабочий дом .Ребята помогали и поддерживали меня и я вжился в коллектив. Я быстро вернулся к обычной жизни. Спасибо вам за всё!!!</p>
+                            </div>                          
+                        </div>
+                    </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="photogalerey">
+                <div class="container">
+                    <h2 class="photogalerey__title title">Фотогалерея</h2>
+                    <div class="swiper photogalerey-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                            <div class="photogalerey__item">
+                                    <img src="img/rabochij-dom-kazan-9.jpg" alt="рабочий дом в Казани">
+                            </div>                            
+                            </div>
+                            <div class="swiper-slide">
+                            <div class="photogalerey__item">
+                                    <img src="img/vremennaya-rabota-dlya-muzhchin-s-prozhivaniem.jpg" alt="Временая работа для мужчин с проживанием">
+                            </div>                            
+                            </div>
+                            <div class="swiper-slide">
+                            <div class="photogalerey__item">
+                                    <img src="img/vremennaya-rabota-dlya-muzhchin-s-prozhivaniem.jpg" alt="Временая работа для мужчин с проживанием">
+                            </div>                            
+                            </div>
+                            <div class="swiper-slide">
+                            <div class="photogalerey__item">
+                                    <img src="img/vremennaya-rabota-dlya-muzhchin-s-prozhivaniem.jpg" alt="Временая работа для мужчин с проживанием">
+                            </div>                            
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="blog">
+                <div class="container blog__container">
+                    <h2 class="blog__title title">Наш блог</h2>
+                     <div class="swiper blog-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="blog__item">
+                                    <div class="blog__item-box">
+                                        <a href="#" class="blog__item-img">
+                                            <img src="img/screenshot-9.png" alt="Скриншот">
+                                        </a>
+                                    </div> 
+                                    <div class="blog__item-container">
+                                        <h3 class="blog__item-title">Помощь Людям Попавшим в Трудную Жизненную  Ситуацию</h3>
+                                        <p class="blog__item-descr">Остался без жилья и документов ? Тогда тебе к нам...</p>
+                                        <a href="#" class="blog__item-link">Подробнее</a>
+                                    </div>                                 
+                                </div>
+                            </div>
+                             <div class="swiper-slide">
+                                <div class="blog__item">
+                                    <div class="blog__item-box">
+                                        <a href="#" class="blog__item-img">
+                                            <img src="img/screenshot-12.png" alt="Скриншот">
+                                        </a>
+                                    </div> 
+                                    <div class="blog__item-container">
+                                        <h3 class="blog__item-title">Рабочий Дом Номер Телефона</h3>
+                                        <p class="blog__item-descr">В жизни у каждого человека часто случаются ситуации, когда кому-то,...</p>
+                                        <a href="#" class="blog__item-link">Подробнее</a>
+                                    </div>                                 
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog__item">
+                                    <div class="blog__item-box">
+                                        <a href="#" class="blog__item-img">
+                                            <img src="img/screenshot-17.png" alt="Скриншот">
+                                        </a>
+                                    </div> 
+                                    <div class="blog__item-container">
+                                        <h3 class="blog__item-title">Рабочий дом Казань</h3>
+                                        <p class="blog__item-descr">Мы помогаем с трудоустройством, бесплатным проживанием и питанием любому, кто...</p>
+                                        <a href="#" class="blog__item-link">Подробнее</a>
+                                    </div>                                 
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog__item">
+                                    <div class="blog__item-box">
+                                        <a href="#" class="blog__item-img">
+                                            <img src="img/coding-for-drug-addiction.jpg" alt="Скриншот">
+                                        </a>
+                                    </div> 
+                                    <div class="blog__item-container">
+                                        <h3 class="blog__item-title">Реабилитационные центры для алкозависимых</h3>
+                                        <p class="blog__item-descr">Реабилитационные центры для алкозависимых: Ваш путь к новой жизни Алкогольная...</p>
+                                        <a href="#" class="blog__item-link">Подробнее</a>
+                                    </div>                                 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <a href="#" class="blog__link">Все новости</a>
+                </div>
+                
+            </section>
+            <section class="helps">
+                <div class="container">
+                    <h2 class="helps__title title">Кому мы можем помочь?</h2>
+                    <div class="helps__wrapper">
+                        <div class="helps__item">
+                            <div class="helps__item-icon">
+                                <img src="icons/check.svg" alt="Пункт">
+                            </div>
+                            <div class="helps__item-box">
+                                <h3 class="helps__item-title">Помощь людям без жилья</h3>
+                                <a href="#" class="helps__item-link">Подробнее</a>
+                            </div>                            
+                        </div>
+                        <div class="helps__item">
+                            <div class="helps__item-icon">
+                                <img src="icons/check.svg" alt="Пункт">
+                            </div>
+                            <div class="helps__item-box">
+                                <h3 class="helps__item-title">Помощь безработным</h3>
+                                <a href="#" class="helps__item-link">Подробнее</a>
+                            </div>                            
+                        </div>
+                         <div class="helps__item">
+                            <div class="helps__item-icon">
+                                <img src="icons/check.svg" alt="Пункт">
+                            </div>
+                            <div class="helps__item-box">
+                                <h3 class="helps__item-title">Помощь оказавшимся на улице</h3>
+                                <a href="#" class="helps__item-link">Подробнее</a>
+                            </div>                            
+                        </div>
+                    </div>
+                    <p class="helps__info">Помощь освободившимся из мест лишения свободы, оставшимся без определенного места жительства попавшим в трудную жизненную ситуацию</p>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container">
+                    <div class="contacts__title title">Наши контакты</div>
+                    <div class="contacts__wrapper">                        
+                        <div class="contacts__box">
+                            <div class="contacts__dialog">
+                                <h3 class="contacts__dialog-title">Заявка на консультацию</h3>
+                                <h3 class="contacts__dialog-subtitle">Мы перезвоним Вам в течении пяти минут и ответим на все Ваши вопросы </h3>
+                            </div>
+                            <form class="form contacts__form">
+                                <label class="form__label">
+                                    <input type="text" name="name" class="form__input  contacts__input" id="contact-name" placeholder="Ваше имя">
+                                </label>
+                                <label class="form__label">
+                                    <input type="telt" name="tel" class="form__input contacts__input" id="contact-tel" placeholder="Ваше телефон">
+                                </label>
+                                <button type="submit" class="form__btn btn">Записаться на консультацию</button>
+                                <div class="form__checkbox">
+                                    <input type="checkbox" class="form__checkbox-check" required>
+                                    <span class="form__checkbox-link">
+                                        Нажимая на кнопку "Оставить заявку на сотрудничество", вы даёте согласие на обработку персональных данных в соответствии c <a href="policy.html" target="_blank">Политикой конфиденциальности.</a> 
+                                    </span>
+                                </div>                            
+                            </form>
+                        </div>
+                        <div class="contacts__hotline">
+                            <div class="contacts__hotline-title">Горячая линия</div>
+                            <a href="tel:79373903333" class="contacts__hotline-phone">8-937-390-33-33</a>
+                        </div>
+                    </div>                 
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__head">
+                     <a href="index.html" class="footer__logo">
+                        <img src="icons/logo.svg" alt="Логотип сайта" class="footer__logo-img">
+                    </a>
+                    <p class="footer__warning">Все материалы сайта носят информационный характер (не медицинское учреждение)</p>
+                </div>
+               <div class="footer__copy">Все права защищены &copy;</div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

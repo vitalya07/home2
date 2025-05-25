@@ -1,0 +1,53 @@
+.form {
+    padding: 0 40px;
+    &__label {
+        max-width: 400px;
+        max-height: 50px;
+    }
+    &__input {
+        max-width: 400px;
+        height: 50px;
+        display: block;
+        padding: 5px 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: none;
+        font-family: 'Georgia',sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: $darkColor;
+        &:focus {
+            outline: 1px solid rgba(0, 0, 0, 0);
+        }
+        &:last-child {
+            margin-bottom: 50px;
+        }
+    }
+    &__btn {
+        width: 420px;
+        height: 60px;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        font-family: 'Georgia-bold',sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: $whiteColor;
+        margin-bottom: 30px;
+    }
+    &__checkbox {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        &-check {
+            width: 20px;
+            height: 20px;
+        }
+        &-link {
+            font-size: 12px;
+        }
+    }
+}

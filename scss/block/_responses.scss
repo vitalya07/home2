@@ -1,0 +1,36 @@
+.responses {
+    padding: 100px 0;
+    background-image: url('../img/s-review_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__item {
+        max-width: 600px;
+        margin: 0 auto;
+        &-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            margin-bottom: 40px;
+            border: 1px solid $mainColor;
+        }
+        &-recal {
+            font-family: 'Georgia', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            color: $darkColor;
+        }
+        &-name {
+            font-family: 'Georgia-bold', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 100%;
+            color: $darkColor;
+            margin-bottom: 40px;
+            border-bottom: 2px dashed $mainColor;
+            padding: 0 0 10px 0;
+            width: 150px;
+        }
+    }
+}

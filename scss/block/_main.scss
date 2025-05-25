@@ -1,0 +1,78 @@
+.main {
+    background-image: url('../img/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 200px 0 150px 0;
+    &__title {
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 120%;
+        color: $whiteColor;
+        max-width: 1200px;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        span {
+            font-weight: 700;
+            color: $mainColor;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__advantages {
+        &-item {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        &-icon {
+            width: 30px;
+            height: 30px;
+        }
+        &-name {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 120%;
+            color: $whiteColor;
+        }
+    }
+   &__right {
+        &-title {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 140%;
+            color: $whiteColor;
+            margin-bottom: 30px;
+        }
+        &-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        &-social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        &-icon {
+            width: 60px;
+            height: 60px;
+        }
+        &-text {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 120%;
+            color: $whiteColor;
+        }
+   }
+}

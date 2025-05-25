@@ -1,0 +1,90 @@
+.about {
+    padding: 100px 0;
+    &__digits {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 100px;
+        &-item {
+            padding: 10px 20px;
+            border: 2px dashed $mainColor;
+            box-shadow: 20px 20px 40px $darkColor;
+            text-align: center;
+            width: 300px;
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 80px;
+            width: 100%;
+            color: $mainColor;
+            margin-bottom: 20px;
+            text-shadow: 20px 20px 40px $darkColor;
+        }
+        &-subtitle {
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;        
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        color: $darkColor;
+        max-width: 700px;
+        margin-bottom: 15px;
+        z-index: 3;
+    }
+    &__right {
+        max-width: 700px;
+        height: auto;
+    }
+    &__next {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        // position: absolute;
+        // bottom: -20px;
+        // left: 20px;
+        cursor: pointer;
+        &-warning {
+            font-size: 16px;
+            line-height: 120%;
+            color: $mainColor;
+            border-bottom: 1px solid $mainColor;
+        }
+        &-icon {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    &__box {
+        position: relative;
+        background-color: #fff;
+        z-index: 1;
+    }
+    &__info {
+        display: none;
+        width: 100%;
+        &-title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 150%;
+            color: $mainColor;
+        }
+        &-descr {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 130%;
+            color: $darkColor;
+            max-width: 700px;
+            margin-bottom: 40px;
+            z-index: 3;
+        }
+    }
+}

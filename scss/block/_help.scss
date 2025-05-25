@@ -1,0 +1,40 @@
+.help {
+    padding: 100px 0 100px 0;
+    &__title {
+        width: 600px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        &-img {
+            width: 100%;
+            height: auto;
+        }
+        &-right {
+            max-width: 500px;
+            height: auto;
+        }
+        &-icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 40px;
+        }
+        &-title {
+            font-family: 'Georgia-bold', sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 120%;
+            color: $mainColor;
+            margin-bottom: 40px;
+        }
+        &-descr {
+            font-family: 'Georgia', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            color: $darkColor;
+        }
+    }
+}
