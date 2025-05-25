@@ -87,10 +87,13 @@ document.addEventListener('DOMContentLoaded', ()=> {
             prevEl: '.swiper-button-prev',
         },
         breakpoints: {
+            992: {
+                slidesPerView: 3,
+            },
             568: {
                 slidesPerView: 2, // 2 слайда для экранов меньше 769px
             },
-            320: {
+            250: {
                 slidesPerView: 1, // 2 слайда для экранов меньше 769px
             },
         }
@@ -108,6 +111,17 @@ document.addEventListener('DOMContentLoaded', ()=> {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+        breakpoints: {
+            992: {
+                slidesPerView: 3,
+            },
+            568: {
+                slidesPerView: 2, // 2 слайда для экранов меньше 769px
+            },
+            250: {
+                slidesPerView: 1, // 2 слайда для экранов меньше 769px
+            },
+        }
     });
     if(helpSwiper) {
         changeSwiperArrow();
